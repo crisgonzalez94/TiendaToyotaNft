@@ -1,0 +1,54 @@
+.navbar{
+  background: white;
+  border-bottom: 4px solid #dddd;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 10px;
+}
+
+.navbar ul{
+  font-family: 'Mulish', sans-serif;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .navbar{
+    height: 80px;
+  }
+
+  .titlebox{
+    position: absolute;
+    width: 400px;
+    margin-left: calc(50% - 200px);
+    top: 12px;
+    font-size: 10px;
+  }
+
+  .navbar ul{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-size: 13px;
+  }
+
+  
+}
+
+@media screen and (max-width: 1100px) {
+  .titlebox{
+    margin-left: 90px;
+    top: 16px;
+  }
+  h1{
+    font-size: 12px;
+  }
+}
+
+
+
+iframe{
+  min-height: 1600px;
+}
